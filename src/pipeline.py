@@ -107,10 +107,29 @@ class Pipeline:
         return self.stats
 
     def _discover_companies(self):
-        """Discover companies from all sources."""
+        """Discover companies from all sources.
+
+        Uses the seed company list first (comprehensive NSE/BSE list),
+        then tries live APIs for additional companies.
+        """
+        # First try the curated seed list (most reliable)
+        try:
+            from src.seed_companies import get_seed_symbols
+            seed_symbols = get_seed_symbols()
+            if seed_symbols:
+                logger.info(
+                    "Using seed company list with %d symbols", len(seed_symbols)
+                )
+                return [
+                    {"symbol": s, "name": s, "source": "seed"}
+                    for s in seed_symbols
+                ]
+        except ImportError:
+            logger.info("No seed company list found, using live discovery")
+
+        # Fall back to live discovery
         fetcher = CompanyListFetcher(self.rate_limit_delay)
         try:
-            # Try to load cached list first
             cached = fetcher.load_company_list()
             if cached:
                 logger.info("Loaded cached company list with %d companies", len(cached))

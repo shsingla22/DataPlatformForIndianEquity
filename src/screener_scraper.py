@@ -66,6 +66,10 @@ class ScreenerScraper:
         """
         Scrape all financial data for a company.
 
+        Tries the consolidated URL first. If no financial table data is
+        found (some companies only publish standalone reports), automatically
+        falls back to the standalone URL.
+
         Args:
             symbol: NSE trading symbol (e.g., 'RELIANCE')
 
@@ -76,12 +80,12 @@ class ScreenerScraper:
         # Try consolidated first
         url = SCREENER_COMPANY_URL.format(symbol=symbol)
         is_consolidated = True
+        soup = None
+
         try:
             html = self._fetch_page(url)
             soup = BeautifulSoup(html, "lxml")
 
-            # Check if page has consolidated data - look for the consolidated tab
-            # being active or if it redirects to standalone
             has_consolidated = self._check_consolidated(soup, html)
             if not has_consolidated:
                 raise ScraperError("No consolidated data")
@@ -106,6 +110,36 @@ class ScreenerScraper:
         profit_loss = self._extract_table_data(soup, "profit-loss")
         balance_sheet = self._extract_table_data(soup, "balance-sheet")
         cash_flow = self._extract_table_data(soup, "cash-flow")
+
+        # If consolidated page returned no table data, try standalone
+        if is_consolidated and not profit_loss and not balance_sheet:
+            logger.info(
+                "Consolidated page for %s had empty tables, trying standalone", symbol
+            )
+            standalone_url = SCREENER_STANDALONE_URL.format(symbol=symbol)
+            try:
+                html = self._fetch_page(standalone_url)
+                standalone_soup = BeautifulSoup(html, "lxml")
+
+                standalone_pnl = self._extract_table_data(standalone_soup, "profit-loss")
+                standalone_bs = self._extract_table_data(standalone_soup, "balance-sheet")
+                standalone_cf = self._extract_table_data(standalone_soup, "cash-flow")
+
+                if standalone_pnl or standalone_bs:
+                    profit_loss = standalone_pnl
+                    balance_sheet = standalone_bs
+                    cash_flow = standalone_cf
+                    is_consolidated = False
+                    url = standalone_url
+                    company_info["is_consolidated"] = False
+                    company_info = self._extract_company_info(standalone_soup, symbol)
+                    company_info["is_consolidated"] = False
+                    logger.info(
+                        "Using standalone data for %s (consolidated tables were empty)",
+                        symbol,
+                    )
+            except Exception as e:
+                logger.warning("Standalone fallback failed for %s: %s", symbol, e)
 
         # Filter to last N years
         profit_loss = self._filter_recent_years(profit_loss, NUM_YEARS)
