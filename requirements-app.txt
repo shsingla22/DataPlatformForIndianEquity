@@ -1,0 +1,7 @@
+# Inference Layer (API)
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+
+# NL Query Engine
+rapidfuzz>=3.6.0
