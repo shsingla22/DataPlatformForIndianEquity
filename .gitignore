@@ -20,3 +20,6 @@ data/*.db
 htmlcov/
 .coverage
 *.log
+node_modules/
+package.json
+package-lock.json
