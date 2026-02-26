@@ -1,0 +1,38 @@
+{
+  "source": "Tata Consultancy Services Ltd - Screener.in consolidated FY2024-25 (verified against annual report)",
+  "nse_symbol": "TCS",
+  "fiscal_year": "Mar 2025",
+  "sector": "General",
+  "is_bank": false,
+  "profit_loss": {
+    "sales": 255324.0,
+    "expenses": 187917.0,
+    "operating_profit": 67407.0,
+    "opm_percent": 26.0,
+    "other_income": 3962.0,
+    "interest": 796.0,
+    "depreciation": 5242.0,
+    "profit_before_tax": 65331.0,
+    "tax_percent": 25.0,
+    "net_profit": 48797.0,
+    "eps": 134.2
+  },
+  "balance_sheet": {
+    "equity_capital": 362.0,
+    "reserves": 94394.0,
+    "borrowings": 9392.0,
+    "other_liabilities": 54501.0,
+    "total_liabilities": 158649.0,
+    "fixed_assets": 23053.0,
+    "cwip": 1546.0,
+    "investments": 30964.0,
+    "other_assets": 103086.0,
+    "total_assets": 158649.0
+  },
+  "cash_flow": {
+    "cash_from_operating": 48908.0,
+    "cash_from_investing": -2144.0,
+    "cash_from_financing": -47438.0,
+    "net_cash_flow": -674.0
+  }
+}

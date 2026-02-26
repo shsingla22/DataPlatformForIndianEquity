@@ -1,0 +1,38 @@
+{
+  "source": "Larsen & Toubro Ltd - Screener.in consolidated FY2024-25 (verified against annual report)",
+  "nse_symbol": "LT",
+  "fiscal_year": "Mar 2025",
+  "sector": "General",
+  "is_bank": false,
+  "profit_loss": {
+    "sales": 255734.0,
+    "expenses": 221399.0,
+    "operating_profit": 34335.0,
+    "opm_percent": 13.0,
+    "other_income": 3289.0,
+    "interest": 9925.0,
+    "depreciation": 4121.0,
+    "profit_before_tax": 23579.0,
+    "tax_percent": 25.0,
+    "net_profit": 17673.0,
+    "eps": 109.35
+  },
+  "balance_sheet": {
+    "equity_capital": 275.0,
+    "reserves": 97381.0,
+    "borrowings": 132409.0,
+    "other_liabilities": 149050.0,
+    "total_liabilities": 379114.0,
+    "fixed_assets": 44055.0,
+    "cwip": 2589.0,
+    "investments": 54805.0,
+    "other_assets": 277665.0,
+    "total_assets": 379114.0
+  },
+  "cash_flow": {
+    "cash_from_operating": 9161.0,
+    "cash_from_investing": -15489.0,
+    "cash_from_financing": 6557.0,
+    "net_cash_flow": 228.0
+  }
+}

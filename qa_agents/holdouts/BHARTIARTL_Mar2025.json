@@ -1,0 +1,38 @@
+{
+  "source": "Bharti Airtel Ltd - Screener.in consolidated FY2024-25 (verified against annual report)",
+  "nse_symbol": "BHARTIARTL",
+  "fiscal_year": "Mar 2025",
+  "sector": "General",
+  "is_bank": false,
+  "profit_loss": {
+    "sales": 172985.0,
+    "expenses": 87925.0,
+    "operating_profit": 85060.0,
+    "opm_percent": 49.0,
+    "other_income": 20662.0,
+    "interest": 21754.0,
+    "depreciation": 45570.0,
+    "profit_before_tax": 38398.0,
+    "tax_percent": 2.0,
+    "net_profit": 37481.0,
+    "eps": 58.85
+  },
+  "balance_sheet": {
+    "equity_capital": 2900.0,
+    "reserves": 110772.0,
+    "borrowings": 213642.0,
+    "other_liabilities": 177692.0,
+    "total_liabilities": 505006.0,
+    "fixed_assets": 388468.0,
+    "cwip": 10999.0,
+    "investments": 5838.0,
+    "other_assets": 99700.0,
+    "total_assets": 505006.0
+  },
+  "cash_flow": {
+    "cash_from_operating": 98332.0,
+    "cash_from_investing": -60198.0,
+    "cash_from_financing": -36533.0,
+    "net_cash_flow": 1601.0
+  }
+}

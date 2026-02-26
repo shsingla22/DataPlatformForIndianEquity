@@ -1,0 +1,38 @@
+{
+  "source": "Reliance Industries Ltd - Screener.in consolidated FY2024-25 (verified against annual report)",
+  "nse_symbol": "RELIANCE",
+  "fiscal_year": "Mar 2025",
+  "sector": "General",
+  "is_bank": false,
+  "profit_loss": {
+    "sales": 962820.0,
+    "expenses": 797222.0,
+    "operating_profit": 165598.0,
+    "opm_percent": 17.0,
+    "other_income": 17824.0,
+    "interest": 24269.0,
+    "depreciation": 53136.0,
+    "profit_before_tax": 106017.0,
+    "tax_percent": 24.0,
+    "net_profit": 81309.0,
+    "eps": 51.47
+  },
+  "balance_sheet": {
+    "equity_capital": 13532.0,
+    "reserves": 829668.0,
+    "borrowings": 374313.0,
+    "other_liabilities": 732200.0,
+    "total_liabilities": 1949713.0,
+    "fixed_assets": 999393.0,
+    "cwip": 262358.0,
+    "investments": 242381.0,
+    "other_assets": 445581.0,
+    "total_assets": 1949713.0
+  },
+  "cash_flow": {
+    "cash_from_operating": 178703.0,
+    "cash_from_investing": -137535.0,
+    "cash_from_financing": -31891.0,
+    "net_cash_flow": 9277.0
+  }
+}

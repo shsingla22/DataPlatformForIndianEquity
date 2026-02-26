@@ -1,0 +1,38 @@
+{
+  "source": "HDFC Bank Ltd - Screener.in consolidated FY2024-25 (verified against annual report)",
+  "nse_symbol": "HDFCBANK",
+  "fiscal_year": "Mar 2025",
+  "sector": "Banking",
+  "is_bank": true,
+  "profit_loss": {
+    "sales": null,
+    "expenses": 186974.0,
+    "operating_profit": null,
+    "opm_percent": null,
+    "other_income": 134548.0,
+    "interest": 183894.0,
+    "depreciation": 3805.0,
+    "profit_before_tax": 96242.0,
+    "tax_percent": 24.0,
+    "net_profit": 73440.0,
+    "eps": 46.26
+  },
+  "balance_sheet": {
+    "equity_capital": 765.0,
+    "reserves": 521024.0,
+    "borrowings": null,
+    "other_liabilities": 524817.0,
+    "total_liabilities": 4392110.0,
+    "fixed_assets": 15258.0,
+    "cwip": 0.0,
+    "investments": 1186473.0,
+    "other_assets": 3190379.0,
+    "total_assets": 4392110.0
+  },
+  "cash_flow": {
+    "cash_from_operating": 127242.0,
+    "cash_from_investing": -3651.0,
+    "cash_from_financing": -102478.0,
+    "net_cash_flow": 21113.0
+  }
+}

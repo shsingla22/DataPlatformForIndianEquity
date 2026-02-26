@@ -1,0 +1,38 @@
+{
+  "source": "Hindustan Unilever Ltd - Screener.in consolidated FY2024-25 (verified against annual report)",
+  "nse_symbol": "HINDUNILVR",
+  "fiscal_year": "Mar 2025",
+  "sector": "General",
+  "is_bank": false,
+  "profit_loss": {
+    "sales": 63121.0,
+    "expenses": 48278.0,
+    "operating_profit": 14843.0,
+    "opm_percent": 24.0,
+    "other_income": 1322.0,
+    "interest": 395.0,
+    "depreciation": 1355.0,
+    "profit_before_tax": 14415.0,
+    "tax_percent": 26.0,
+    "net_profit": 10671.0,
+    "eps": 45.32
+  },
+  "balance_sheet": {
+    "equity_capital": 235.0,
+    "reserves": 49167.0,
+    "borrowings": 1648.0,
+    "other_liabilities": 28813.0,
+    "total_liabilities": 79863.0,
+    "fixed_assets": 54335.0,
+    "cwip": 1009.0,
+    "investments": 3810.0,
+    "other_assets": 20709.0,
+    "total_assets": 79863.0
+  },
+  "cash_flow": {
+    "cash_from_operating": 11886.0,
+    "cash_from_investing": 6473.0,
+    "cash_from_financing": -13101.0,
+    "net_cash_flow": 5258.0
+  }
+}

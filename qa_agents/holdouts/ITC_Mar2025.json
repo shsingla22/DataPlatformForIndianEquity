@@ -1,0 +1,38 @@
+{
+  "source": "ITC Ltd - Screener.in consolidated FY2024-25 (verified against annual report)",
+  "nse_symbol": "ITC",
+  "fiscal_year": "Mar 2025",
+  "sector": "General",
+  "is_bank": false,
+  "profit_loss": {
+    "sales": 75323.0,
+    "expenses": 49484.0,
+    "operating_profit": 25839.0,
+    "opm_percent": 34.0,
+    "other_income": 17795.0,
+    "interest": 45.0,
+    "depreciation": 1646.0,
+    "profit_before_tax": 41943.0,
+    "tax_percent": 16.0,
+    "net_profit": 35052.0,
+    "eps": 27.77
+  },
+  "balance_sheet": {
+    "equity_capital": 1251.0,
+    "reserves": 68779.0,
+    "borrowings": 285.0,
+    "other_liabilities": 17688.0,
+    "total_liabilities": 88003.0,
+    "fixed_assets": 21955.0,
+    "cwip": 1091.0,
+    "investments": 34720.0,
+    "other_assets": 30237.0,
+    "total_assets": 88003.0
+  },
+  "cash_flow": {
+    "cash_from_operating": 17627.0,
+    "cash_from_investing": -564.0,
+    "cash_from_financing": -17037.0,
+    "net_cash_flow": 26.0
+  }
+}

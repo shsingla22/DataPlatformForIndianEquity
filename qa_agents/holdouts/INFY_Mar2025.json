@@ -1,0 +1,38 @@
+{
+  "source": "Infosys Ltd - Screener.in consolidated FY2024-25 (verified against annual report)",
+  "nse_symbol": "INFY",
+  "fiscal_year": "Mar 2025",
+  "sector": "General",
+  "is_bank": false,
+  "profit_loss": {
+    "sales": 162990.0,
+    "expenses": 123754.0,
+    "operating_profit": 39236.0,
+    "opm_percent": 24.0,
+    "other_income": 3600.0,
+    "interest": 416.0,
+    "depreciation": 4812.0,
+    "profit_before_tax": 37608.0,
+    "tax_percent": 29.0,
+    "net_profit": 26750.0,
+    "eps": 64.32
+  },
+  "balance_sheet": {
+    "equity_capital": 2073.0,
+    "reserves": 93745.0,
+    "borrowings": 8227.0,
+    "other_liabilities": 43750.0,
+    "total_liabilities": 147795.0,
+    "fixed_assets": 30961.0,
+    "cwip": 814.0,
+    "investments": 23541.0,
+    "other_assets": 92479.0,
+    "total_assets": 147795.0
+  },
+  "cash_flow": {
+    "cash_from_operating": 35694.0,
+    "cash_from_investing": -1864.0,
+    "cash_from_financing": -24161.0,
+    "net_cash_flow": 9669.0
+  }
+}

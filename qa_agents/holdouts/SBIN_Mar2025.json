@@ -1,0 +1,38 @@
+{
+  "source": "State Bank of India - Screener.in consolidated FY2024-25 (verified against annual report)",
+  "nse_symbol": "SBIN",
+  "fiscal_year": "Mar 2025",
+  "sector": "Banking",
+  "is_bank": true,
+  "profit_loss": {
+    "sales": null,
+    "expenses": 252043.0,
+    "operating_profit": null,
+    "opm_percent": null,
+    "other_income": 172406.0,
+    "interest": 300943.0,
+    "depreciation": 3991.0,
+    "profit_before_tax": 106365.0,
+    "tax_percent": 26.0,
+    "net_profit": 80523.0,
+    "eps": 86.91
+  },
+  "balance_sheet": {
+    "equity_capital": 892.0,
+    "reserves": 486144.0,
+    "borrowings": null,
+    "other_liabilities": 775938.0,
+    "total_liabilities": 7313730.0,
+    "fixed_assets": 47716.0,
+    "cwip": 41.0,
+    "investments": 2205601.0,
+    "other_assets": 5060371.0,
+    "total_assets": 7313730.0
+  },
+  "cash_flow": {
+    "cash_from_operating": 48486.0,
+    "cash_from_investing": -3387.0,
+    "cash_from_financing": -13739.0,
+    "net_cash_flow": 31361.0
+  }
+}
