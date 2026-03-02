@@ -358,7 +358,7 @@ class TestCrossStatementAgent:
         agent = CrossStatementAgent()
         result = agent.run([SCENARIO_CF_MISSING])
         rule_ids = [f.rule_id for f in result.findings]
-        assert "4.6" in rule_ids, "Should detect missing CF when P&L exists (Rule 4.6)"
+        assert "4.12" in rule_ids, "Should detect missing CF when P&L exists (Rule 4.12)"
 
 
 # ---------------------------------------------------------------------------

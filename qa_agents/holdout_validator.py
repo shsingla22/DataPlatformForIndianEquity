@@ -105,6 +105,9 @@ class HoldoutValidator:
                          section_name: str):
         """Compare one section (P&L, BS, CF) field by field."""
         for field_name, holdout_val in holdout_section.items():
+            # Skip documentation/note fields and None values
+            if field_name.startswith("_") or field_name.endswith("_note"):
+                continue
             if holdout_val is None:
                 continue  # Skip NULL holdout values (intentionally NULL, e.g. bank sales)
 

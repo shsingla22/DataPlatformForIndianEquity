@@ -15,24 +15,52 @@
     "profit_before_tax": 96242.0,
     "tax_percent": 24.0,
     "net_profit": 73440.0,
-    "eps": 46.26
+    "eps": 46.26,
+    "dividend_payout_percent": 24.0
   },
   "balance_sheet": {
+    "_description": "IndAS Schedule III format. For banks, borrowings=null (deposits in other_liabilities).",
     "equity_capital": 765.0,
+    "equity_capital_note": "Paid-up share capital (face value \u00d7 shares outstanding). Includes equity + preference shares.",
     "reserves": 521024.0,
+    "reserves_note": "Securities premium + general reserve + retained earnings + revaluation surplus + OCI reserves.",
     "borrowings": null,
+    "borrowings_note": "Long-term borrowings (debentures, term loans, bonds, ECBs) + short-term borrowings (working capital, CP, current maturities). NULL for banks.",
     "other_liabilities": 524817.0,
+    "other_liabilities_note": "Trade payables + provisions (employee benefits, warranties) + deferred tax + current tax + advances from customers. For banks: includes customer deposits.",
     "total_liabilities": 4392110.0,
     "fixed_assets": 15258.0,
+    "fixed_assets_note": "PP&E net of depreciation (land, buildings, plant, machinery, vehicles, furniture) + intangible assets (software, patents, goodwill) + right-of-use assets (IndAS 116).",
     "cwip": 0.0,
+    "cwip_note": "Capital work in progress \u2014 assets under construction not yet ready for use. Should eventually transfer to fixed_assets.",
     "investments": 1186473.0,
+    "investments_note": "Investments in subsidiaries/associates/JVs + quoted/unquoted equity & debt + mutual funds + government securities + FDs > 12 months. Banks: large portion (SLR/treasury).",
     "other_assets": 3190379.0,
+    "other_assets_note": "Inventory (raw material, WIP, finished goods) + trade receivables + cash & bank balances + loans & advances + prepaid expenses + tax assets (MAT credit, advance tax).",
     "total_assets": 4392110.0
   },
   "cash_flow": {
+    "_description": "IndAS 7 format. Three main activities with key sub-components.",
     "cash_from_operating": 127242.0,
+    "cash_from_operating_note": "Indirect method: Net Profit + depreciation \u00b1 working capital changes (inventory, receivables, payables) - income tax paid \u00b1 other non-cash adjustments.",
     "cash_from_investing": -3651.0,
+    "cash_from_investing_note": "Purchase/sale of PP&E (capex) + purchase/sale of investments + acquisition/disposal of subsidiaries + loans given/recovered + interest/dividends received.",
     "cash_from_financing": -102478.0,
-    "net_cash_flow": 21113.0
+    "cash_from_financing_note": "Proceeds/repayment of long-term & short-term borrowings + issue/buyback of equity + dividends paid + interest paid + lease payments (IndAS 116).",
+    "net_cash_flow": 21113.0,
+    "net_cash_flow_note": "= OCF + ICF + FCF. Should approximate change in cash & bank balances (within other_assets)."
+  },
+  "prior_year_balance_sheet": {
+    "_description": "Previous year (Mar 2024) BS for delta calculations used in cash flow cross-validation.",
+    "equity_capital": 760.0,
+    "reserves": 455636.0,
+    "borrowings": null,
+    "other_liabilities": 466296.0,
+    "total_liabilities": 4030194.0,
+    "fixed_assets": 12604.0,
+    "cwip": 0.0,
+    "investments": 1005682.0,
+    "other_assets": 3011909.0,
+    "total_assets": 4030194.0
   }
 }
