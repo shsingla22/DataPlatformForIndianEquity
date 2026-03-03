@@ -1,0 +1,516 @@
+======================================================================
+MANAGEMENT DATA REPORT
+Generated: 2026-03-03 04:01:21
+======================================================================
+
+SUMMARY
+----------------------------------------
+  Companies with management data: 491
+  Total directors/KMP tracked: 4095
+  Key Management Personnel (KMP): 1385
+  Directors with qualifications: 775
+  Management changes detected: 1871
+  Companies flagged for changes: 281
+
+MANAGEMENT CHANGES (by company)
+----------------------------------------
+
+  3MINDIA (3M India Ltd):
+    [2025] NEW: Bharat Shah → Chairman & Independent Directo
+    [2025] NEW: Biren Gabhawala → Independent Director
+    [2025] NEW: Amit Laroya → Non Executive Director
+    [2025] NEW: Andrew Bennett → Independent Director
+    [2025] NEW: Kong Sau Wai Elizabeth → Non Executive Director
+    [2025] NEW: Radhika Rajan → Chairperson
+    [2025] NEW: Jayanand Vasudeorao Kaginalkar → Whole Time Director
+    [2025] NEW: Narumanchi Sivakumar → Independent Director
+
+  AADHARHFC (Aadhar Housing Finance Ltd):
+    [2025] NEW: Neeraj Mohan → Nominee
+    [2025] NEW: Sharmila Karve → Independent Director
+    [2025] NEW: Nivedita Haran → Non-Exec. & Independent Dir.
+    [2025] NEW: Deo Shankar Tripathi → Executive Vice Chairman
+    [2025] NEW: Deo Tripathi → Managing Director & CEO
+
+  AARTIIND (Aarti Industries Ltd):
+    [2025] NEW: Aniruddha Pandit → Independent Director
+    [2025] NEW: Chandrakant Gogri → Chairman Emeritus
+    [2025] NEW: Ajay Gupta → Executive Director
+    [2025] NEW: Belur Sethuram → Independent Director
+    [2025] NEW: Bhavesh Vora → Independent Director
+    [2025] NEW: Hetal Gogri Gala → Non Executive Director
+
+  ABB (ABB India Ltd):
+    [2024] NEW: Gopika Pant → Independent Director
+    [2024] NEW: Shobinder Duggal → Independent Non Exe. Director
+    [2024] NEW: Monica Widhani → Independent Director
+    [2024] NEW: Carolina Granat → Director
+    [2024] NEW: Adrian Guggisberg → Chairman (Non-Executive)
+
+  ABBOTINDIA (Abbott India Ltd):
+    [2025] NEW: Ambati Venu → Non Executive Director
+    [2025] NEW: Shalini Kamath → Independent Director
+    [2025] NEW: Mahadeo Karnik → Non Executive Director
+    [2025] NEW: Alison Davies → Non Executive Director
+
+  ABCAPITAL (Aditya Birla Capital Ltd):
+    [2024] NEW: Puranam Ravikumar → Independent Director
+    [2024] NEW: Romesh Sobti → Non Executive Director
+    [2024] NEW: Kumar Birla → Chairman & Non Executive Dir.
+    [2024] NEW: Arun Adhikari → Independent Director
+    [2024] NEW: Amber Gupta → Company Sec. & Compli. Officer
+
+  ABREL (Aditya Birla Real Estate Ltd):
+    [2025] NEW: Pramod Kabra → Independent Director
+    [2025] NEW: Sunirmal Talukdar → Independent Director
+    [2025] NEW: Atul Kedia → Company Sec. & Compli. Officer
+    [2025] NEW: R Dalmia → Managing Director
+    [2025] NEW: Kumar Birla → Chairman (Non-Executive)
+    [2025] NEW: Atul K Kedia → Company Sec. & Compli. Officer
+    [2025] NEW: Preeti Vyas → Independent Director
+
+  ABSLAMC (Aditya Birla Sun Life AMC Ltd):
+    [2025] NEW: Amrit Kanwal → Non Executive Director
+    [2025] NEW: Sunderrajan Raman → Independent Director
+    [2025] NEW: Prateek Savla → Company Sec. & Compli. Officer
+    [2025] NEW: Alka Bharucha → Non-Exec. & Independent Dir.
+
+  ACC (ACC Ltd):
+    [2025] NEW: Hitesh Marthak → Company Sec. & Compli. Officer
+    [2025] NEW: Arun Kumar Anand → Nominee
+    [2025] NEW: Ajay Kapur → Whole Time Director & CEO
+    [2025] NEW: Ameera Shah → Independent Director
+    [2025] NEW: Arun Anand → Non-Exec & Non-Independent Dir
+
+  ADANIENSOL (Adani Energy Solutions Ltd):
+    [2025] NEW: Lisa Maccallum → Independent Director
+    [2025] NEW: Anil Sardana → Managing Director
+    [2025] NEW: K Jairaj → Independent Director
+    [2025] NEW: Lisa Caroline Maccallum → Independent Director
+    [2025] NEW: Gautam Adani → Executive Chairman
+
+  ADANIENT (Adani Enterprises Ltd):
+    [2025] NEW: Omkar Goswami → Independent Director
+    [2025] NEW: Gautam Adani → Executive Chairman
+
+  ADANIGREEN (Adani Green Energy Ltd):
+    [2025] NEW: Neera Saggi → Independent Director
+    [2025] NEW: Vneet S Jaain → Executive Director & MD
+    [2025] NEW: Gautam S Adani → Chairman & Non Executive Dir
+    [2025] NEW: Rajesh S Adani → Non-Exec & Non-Independent Dir
+    [2025] NEW: Sangkaran Ratnam → Non Executive Director / Nominee
+    [2025] NEW: Anup Shah → Independent Director
+    [2025] NEW: Pragnesh Darji → Company Sec. & Compli. Officer
+    [2025] NEW: Gautam Adani → Chairman (Non-Executive)
+    [2025] NEW: Dinesh Kanabar → Independent Director
+
+  ADANIPORTS (Adani Ports & Special Economic Zone Ltd):
+    [2025] NEW: G Pillai → Independent Director
+    [2025] NEW: Bharat Sheth → Independent Director
+    [2025] NEW: G Raghuram → Independent Director
+    [2025] NEW: Gautam S Adani → Chairman (Non-Executive)
+    [2025] NEW: P S Jayakumar → Independent Director
+    [2025] NEW: Kamlesh Bhagia → Company Sec. & Compli. Officer
+    [2025] NEW: Ashwani Gupta → Whole Time Director & CEO
+    [2025] NEW: Gautam Adani → Chairman & Managing Director
+
+  ADANIPOWER (Adani Power Ltd):
+    [2025] NEW: Rajesh Adani → Non Executive Director
+    [2025] NEW: Sangeeta Singh → Independent Director
+    [2025] NEW: Gautam Adani → Chairman (Non-Executive)
+    [2025] NEW: Chandra Iyengar → Independent Director
+
+  AEGISLOG (Aegis Logistics Ltd):
+    [2025] NEW: Monica Gandhi → Company Sec. & Compli. Officer
+    [2025] NEW: Kanwaljit Nagpal → Independent Director
+    [2025] NEW: Jaideep Khimasia → Independent Director
+    [2025] NEW: Amal Chandaria → Non-Exec & Non-Independent Dir
+
+  AFCONS (Afcons Infrastructure Ltd):
+    [2025] NEW: Atul Sobti → Independent Director
+    [2025] NEW: Gaurang Parekh → Company Sec. & Compli. Officer
+    [2025] NEW: Shapoor P Mistry → Chairman Emeritus
+    [2025] NEW: Anurag Sachan → Independent Director
+    [2025] NEW: Cherag Balsara → Independent Director
+
+  AJANTPHARM (Ajanta Pharma Ltd):
+    [2025] NEW: David Rasquinha → Independent Director
+    [2025] NEW: Anjana Grewal → Independent Director
+    [2025] NEW: K Viswanathan → Independent Director
+    [2025] NEW: Rajesh M Agrawal → Joint Managing Director
+    [2025] NEW: Madhusudan B Agrawal → Vice Chairman
+    [2025] NEW: Chandrakanth Khetan → Independent Director
+
+  AKUMS (Akums Drugs & Pharmaceuticals Ltd):
+    [2025] NEW: Nand Kalra → Independent Director
+    [2025] NEW: Kewal Handa → Independent Director
+
+  AKZOINDIA (Akzo Nobel India Ltd):
+    [2025] NEW: Amit Jain → Independent Director
+    [2025] NEW: Rohit Ghanshyamdas Totla → Whole-time Director
+    [2025] NEW: Rajiv Jha → Company Sec. & Compli. Officer
+
+  ALKEM (Alkem Laboratories Ltd):
+    [2025] NEW: Narendra Aneja → Independent Director
+    [2025] NEW: Mritunjay Singh → Executive Director
+    [2025] NEW: Manish Narang → Company Sec. & Compli. Officer
+
+
+FLAGGED COMPANIES (management changes)
+----------------------------------------
+  3MINDIA         3M India Ltd
+  AADHARHFC       Aadhar Housing Finance Ltd
+  AARTIIND        Aarti Industries Ltd
+  ABB             ABB India Ltd
+  ABCAPITAL       Aditya Birla Capital Ltd
+  ABREL           Aditya Birla Real Estate Ltd
+  ABSLAMC         Aditya Birla Sun Life AMC Ltd
+  ACC             ACC Ltd
+  ADANIENSOL      Adani Energy Solutions Ltd
+  ADANIENT        Adani Enterprises Ltd
+  ADANIGREEN      Adani Green Energy Ltd
+  ADANIPORTS      Adani Ports & Special Economic Zone Ltd
+  ADANIPOWER      Adani Power Ltd
+  AFCONS          Afcons Infrastructure Ltd
+  AJANTPHARM      Ajanta Pharma Ltd
+  ALKEM           Alkem Laboratories Ltd
+  AMBUJACEM       Ambuja Cements Ltd
+  ANANDRATHI      Anand Rathi Wealth Ltd
+  ANGELONE        Angel One Ltd
+  APARINDS        Apar Industries Ltd
+  APLAPOLLO       APL Apollo Tubes Ltd
+  APLLTD          Alembic Pharmaceuticals Ltd
+  APOLLOHOSP      Apollo Hospitals Enterprise Ltd
+  APOLLOTYRE      Apollo Tyres Ltd
+  APTUS           Aptus Value Housing Finance India Ltd
+  ASHOKLEY        Ashok Leyland Ltd
+  ASTRAL          Astral Ltd
+  ASTRAZEN        Astrazeneca Pharma India Ltd
+  ATGL            Adani Total Gas Ltd
+  ATUL            Atul Ltd
+  AUBANK          AU Small Finance Bank Ltd
+  AUROPHARMA      Aurobindo Pharma Ltd
+  AWL             AWL Agri Business Ltd
+  BAJAJHFL        Bajaj Housing Finance Ltd
+  BAJAJHLDNG      Bajaj Holdings & Investment Ltd
+  BAJFINANCE      Bajaj Finance Ltd
+  BALRAMCHIN      Balrampur Chini Mills Ltd
+  BANKBARODA      Bank of Baroda
+  BANKINDIA       Bank of India
+  BASF            BASF India Ltd
+  BATAINDIA       Bata India Ltd
+  BAYERCROP       Bayer CropScience Ltd
+  BBTC            The Bombay Burmah Trading Corporation Ltd
+  BEML            BEML Ltd
+  BERGEPAINT      Berger Paints India Ltd
+  BHARATFORG      Bharat Forge Ltd
+  BHARTIARTL      Bharti Airtel Ltd
+  BHARTIHEXA      Bharti Hexacom Ltd
+  BHEL            Bharat Heavy Electricals Ltd
+  BIOCON          Biocon Ltd
+  BLUEDART        Blue Dart Express Ltd
+  BOSCHLTD        Bosch Ltd
+  BPCL            Bharat Petroleum Corporation Ltd
+  BRIGADE         Brigade Enterprises Ltd
+  BSE             BSE Ltd
+  CAMPUS          Campus Activewear Ltd
+  CAMS            Computer Age Management Services Ltd
+  CANBK           Canara Bank
+  CANFINHOME      Can Fin Homes Ltd
+  CARBORUNIV      Carborundum Universal Ltd
+  CCL             CCL Products (India) Ltd
+  CEATLTD         CEAT Ltd
+  CENTRALBK       Central Bank of India
+  CENTURYPLY      Century Plyboards (India) Ltd
+  CESC            CESC Ltd
+  CGPOWER         CG Power & Industrial Solutions Ltd
+  CHAMBLFERT      Chambal Fertilisers & Chemicals Ltd
+  CHENNPETRO      Chennai Petroleum Corporation Ltd
+  CHOICEIN        Choice International Ltd
+  CHOLAFIN        Cholamandalam Investment & Finance Company Ltd
+  CHOLAHLDNG      Cholamandalam Financial Holdings Ltd
+  CIPLA           Cipla Ltd
+  COLPAL          Colgate-Palmolive (India) Ltd
+  CONCORDBIO      Concord Biotech Ltd
+  CUB             City Union Bank Ltd
+  CUMMINSIND      Cummins India Ltd
+  CYIENT          Cyient Ltd
+  DATAPATTNS      Data Patterns (India) Ltd
+  DCMSHRIRAM      DCM Shriram Ltd
+  DEEPAKFERT      Deepak Fertilisers & Petrochemicals Corp Ltd
+  DEEPAKNTR       Deepak Nitrite Ltd
+  DIVISLAB        Divis Laboratories Ltd
+  DLF             DLF Ltd
+  DMART           Avenue Supermarts Ltd
+  DRREDDY         Dr Reddys Laboratories Ltd
+  ECLERX          eClerx Services Ltd
+  EICHERMOT       Eicher Motors Ltd
+  EIDPARRY        EID Parry (India) Ltd
+  ELGIEQUIP       Elgi Equipments Ltd
+  EMCURE          Emcure Pharmaceuticals Ltd
+  ESCORTS         Escorts Kubota Ltd
+  EXIDEIND        Exide Industries Ltd
+  FINCABLES       Finolex Cables Ltd
+  FORTIS          Fortis Healthcare Ltd
+  FSL             Firstsource Solutions Ltd
+  GESHIP          Great Eastern Shipping Company Ltd
+  GICRE           General Insurance Corporation of India
+  GLAXO           Glaxosmithkline Pharmaceuticals Ltd
+  GLENMARK        Glenmark Pharmaceuticals Ltd
+  GMRAIRPORT      GMR Airports Ltd
+  GODFRYPHLP      Godfrey Phillips India Ltd
+  GODIGIT         Go Digit General Insurance Ltd
+  GODREJAGRO      Godrej Agrovet Ltd
+  GODREJCP        Godrej Consumer Products Ltd
+  GODREJIND       Godrej Industries Ltd
+  GODREJPROP      Godrej Properties Ltd
+  GPIL            Godawari Power & Ispat Ltd
+  GRAPHITE        Graphite India Ltd
+  GRASIM          Grasim Industries Ltd
+  GSPL            Gujarat State Petronet Ltd
+  GUJGASLTD       Gujarat Gas Ltd
+  GVT&D           GE Vernova T&D India Ltd
+  HAL             Hindustan Aeronautics Ltd
+  HAPPSTMNDS      Happiest Minds Technologies Ltd
+  HAVELLS         Havells India Ltd
+  HBLENGINE       HBL Engineering Ltd
+  HDFCAMC         HDFC Asset Management Company Ltd
+  HEG             HEG Ltd
+  HEROMOTOCO      Hero MotoCorp Ltd
+  HFCL            HFCL Ltd
+  HINDALCO        Hindalco Industries Ltd
+  HINDZINC        Hindustan Zinc Ltd
+  HYUNDAI         Hyundai Motor India Ltd
+  ICICIGI         ICICI Lombard General Insurance Company Ltd
+  IDBI            IDBI Bank Ltd
+  IDFCFIRSTB      IDFC First Bank Ltd
+  IEX             Indian Energy Exchange Ltd
+  IGL             Indraprastha Gas Ltd
+  IIFL            IIFL Finance Ltd
+  INDIACEM        India Cements Ltd
+  INDIAMART       Indiamart Intermesh Ltd
+  INDIANB         Indian Bank
+  INDUSINDBK      IndusInd Bank Ltd
+  INDUSTOWER      Indus Towers Ltd
+  INOXINDIA       Inox India Ltd
+  INTELLECT       Intellect Design Arena Ltd
+  IOB             Indian Overseas Bank
+  IOC             Indian Oil Corporation Ltd
+  IPCALAB         Ipca Laboratories Ltd
+  IREDA           Indian Renewable Energy Development Agency Ltd
+  IRFC            Indian Railway Finance Corporation Ltd
+  J&KBANK         Jammu and Kashmir Bank Ltd
+  JBCHEPHARM      J B Chemicals & Pharmaceuticals Ltd
+  JINDALSAW       Jindal Saw Ltd
+  JIOFIN          Jio Financial Services Ltd
+  JKCEMENT        J K Cements Ltd
+  JKTYRE          JK Tyre & Industries Ltd
+  JMFINANCIL      JM Financial Ltd
+  JPPOWER         Jaiprakash Power Ventures Ltd
+  JSL             Jindal Stainless Ltd
+  JSWENERGY       JSW Energy Ltd
+  JSWINFRA        JSW Infrastructure Ltd
+  JSWSTEEL        JSW Steel Ltd
+  JUBLINGREA      Jubilant Ingrevia Ltd
+  JUBLPHARMA      Jubilant Pharmova Ltd
+  JWL             Jupiter Wagons Ltd
+  JYOTHYLAB       Jyothy Labs Ltd
+  KAJARIACER      Kajaria Ceramics Ltd
+  KAYNES          Kaynes Technology India Ltd
+  KEC             KEC International Ltd
+  KEI             KEI Industries Ltd
+  KFINTECH        KFin Technologies Ltd
+  KIRLOSBROS      Kirloskar Brothers Ltd
+  KIRLOSENG       Kirloskar Oil Engines Ltd
+  KOTAKBANK       Kotak Mahindra Bank Ltd
+  KPIL            Kalpataru Projects International Ltd
+  KPITTECH        KPIT Technologies Ltd
+  KPRMILL         K P R Mill Ltd
+  LALPATHLAB      Dr Lal Pathlabs Ltd
+  LATENTVIEW      Latent View Analytics Ltd
+  LAURUSLABS      Laurus Labs Ltd
+  LEMONTREE       Lemon Tree Hotels Ltd
+  LINDEINDIA      Linde India Ltd
+  LLOYDSME        Lloyds Metals & Energy Ltd
+  LT              Larsen & Toubro Ltd
+  LTF             L&T Finance Ltd
+  LTIM            LTIMindtree Ltd
+  LTTS            L&T Technology Services Ltd
+  LUPIN           Lupin Ltd
+  M&M             Mahindra & Mahindra Ltd
+  MAHSCOOTER      Maharashtra Scooters Ltd
+  MAHSEAMLES      Maharashtra Seamless Ltd
+  MANAPPURAM      Manappuram Finance Ltd
+  MANKIND         Mankind Pharma Ltd
+  MANYAVAR        Vedant Fashions Ltd
+  MARUTI          Maruti Suzuki India Ltd
+  MCX             Multi Commodity Exchange of India Ltd
+  MEDANTA         Global Health Ltd
+  MGL             Mahanagar Gas Ltd
+  MOTHERSON       Samvardhana Motherson International Ltd
+  MRPL            Mangalore Refinery And Petrochemicals Ltd
+  MSUMI           Motherson Sumi Wiring India Ltd
+  MUTHOOTFIN      Muthoot Finance Ltd
+  NATCOPHARM      Natco Pharma Ltd
+  NATIONALUM      National Aluminium Company Ltd
+  NAVINFLUOR      Navin Fluorine International Ltd
+  NBCC            NBCC (India) Ltd
+  NEULANDLAB      Neuland Laboratories Ltd
+  NH              Narayana Hrudayalaya Ltd
+  NHPC            NHPC Ltd
+  NIACL           New India Assurance Company Ltd
+  NMDC            NMDC Ltd
+  NTPC            NTPC Ltd
+  NUVAMA          Nuvama Wealth Management Ltd
+  OFSS            Oracle Financial Services Software Ltd
+  OLECTRA         Olectra Greentech Ltd
+  ONGC            Oil & Natural Gas Corpn Ltd
+  PAGEIND         Page Industries Ltd
+  PCBL            PCBL Chemical Ltd
+  PFC             Power Finance Corporation Ltd
+  PIIND           P I Industries Ltd
+  PNB             Punjab National Bank
+  PNBHOUSING      PNB Housing Finance Ltd
+  POLICYBZR       PB Fintech Ltd
+  POLYCAB         Polycab India Ltd
+  POONAWALLA      Poonawalla Fincorp Ltd
+  POWERGRID       Power Grid Corporation of India Ltd
+  PPLPHARMA       Piramal Pharma Ltd
+  PRAJIND         Praj Industries Ltd
+  PTCIL           PTC Industries Ltd
+  RAILTEL         Railtel Corporation of India Ltd
+  RAINBOW         Rainbow Childrens Medicare Ltd
+  RAMCOCEM        The Ramco Cements Ltd
+  RBLBANK         RBL Bank Ltd
+  RECLTD          REC Ltd
+  RELIANCE        Reliance Industries Ltd
+  RKFORGE         Ramkrishna Forgings Ltd
+  RPOWER          Reliance Power Ltd
+  RRKABEL         R R Kabel Ltd
+  RVNL            Rail Vikas Nigam Ltd
+  SAMMAANCAP      Sammaan Capital Ltd
+  SAPPHIRE        Sapphire Foods India Ltd
+  SBICARD         SBI Cards & Payment Services Ltd
+  SBILIFE         SBI Life Insurance Company Ltd
+  SBIN            State Bank of India
+  SHREECEM        Shree Cement Ltd
+  SHRIRAMFIN      Shriram Finance Ltd
+  SHYAMMETL       Shyam Metalics & Energy Ltd
+  SIEMENS         Siemens Ltd
+  SONACOMS        Sona BLW Precision Forgings Ltd
+  SONATSOFTW      Sonata Software Ltd
+  SRF             SRF Ltd
+  SUMICHEM        Sumitomo Chemical India Ltd
+  SUNDRMFAST      Sundram Fasteners Ltd
+  SUNPHARMA       Sun Pharmaceutical Industries Ltd
+  SUPREMEIND      Supreme Industries Ltd
+  SUZLON          Suzlon Energy Ltd
+  SYNGENE         Syngene International Ltd
+  TATACOMM        Tata Communications Ltd
+  TATACONSUM      Tata Consumer Products Ltd
+  TATAINVEST      Tata Investment Corporation Ltd
+  TATAPOWER       Tata Power Company Ltd
+  TCS             Tata Consultancy Services Ltd
+  TECHM           Tech Mahindra Ltd
+  TEJASNET        Tejas Networks Ltd
+  THERMAX         Thermax Ltd
+  TIINDIA         Tube Investments of India Ltd
+  TIMKEN          Timken India Ltd
+  TITAN           Titan Company Ltd
+  TORNTPHARM      Torrent Pharmaceuticals Ltd
+  TORNTPOWER      Torrent Power Ltd
+  TRENT           Trent Ltd
+  TRITURBINE      Triveni Turbine Ltd
+  TRIVENI         Triveni Engineering and Industries Ltd
+  TTML            Tata Teleservices (Maharashtra) Ltd
+  TVSMOTOR        TVS Motor Company Ltd
+  UBL             United Breweries Ltd
+  UCOBANK         UCO Bank
+  ULTRACEMCO      UltraTech Cement Ltd
+  UNIONBANK       Union Bank of India
+  UNOMINDA        Uno Minda Ltd
+  UPL             UPL Ltd
+  USHAMART        Usha Martin Ltd
+  VGUARD          V-Guard Industries Ltd
+  VIJAYA          Vijaya Diagnostic Centre Ltd
+  VOLTAS          Voltas Ltd
+  WELCORP         Welspun Corp Ltd
+  WOCKPHARMA      Wockhardt Ltd
+  ZEEL            Zee Entertainment Enterprises Ltd
+  ZENSARTECH      Zensar Technologies Ltd
+  ZENTEC          Zen Technologies Ltd
+
+
+SAMPLE ENRICHED DIRECTORS
+----------------------------------------
+  360ONE | KARAN BHAGAT | Managing Director
+    Qualification: B.Com from St. Xavier's College Kolkata; MBA Finance from IIM Bangalore (2001)
+    Experience: Founded IIFL Wealth Management (now 360 ONE WAM) in 2008. Previously spent 7+ years at Kotak Wealth Management heading M
+  360ONE | Nilesh Vikamsey | Chairman & Independent Directo
+    Qualification: ment Limited, founded in 2008, is one of the largest private wealth management firms in India; ment services by mobilizi
+    Experience: IIFL Wealth Management Limited, founded in 2008, is one of the largest private wealth management firms in India.
+  3MINDIA | Ramesh Ramadurai | Managing Director
+    Qualification: ments: Safety & Industrial , Transportation & Electronics, Health Care and Consumer; medabad, Bangalore, Pune and has a 
+  3MINDIA | Jayanand Vasudeorao Kaginalkar | Whole Time Director
+    Qualification: ments: Safety & Industrial , Transportation & Electronics, Health Care and Consumer; medabad, Bangalore, Pune and has a 
+  3MINDIA | Bharat Shah | Chairman & Independent Directo
+    Qualification: ments: Safety & Industrial , Transportation & Electronics, Health Care and Consumer; medabad, Bangalore, Pune and has a 
+  AADHARHFC | Om Prakash Bhatt | Chairman (Non-Executive)
+    Qualification: me housing finance companies in India servicing the home financing needs of the low income sections of the society
+  AADHARHFC | Deo Shankar Tripathi | Executive Vice Chairman
+    Qualification: me housing finance companies in India servicing the home financing needs of the low income sections of the society
+  AADHARHFC | Deo Tripathi | Managing Director & CEO
+    Qualification: me housing finance companies in India servicing the home financing needs of the low income sections of the society
+  AARTIIND | Chandrakant V Gogri | Chairman Emeritus
+    Qualification: cals at its major facilities in Vapi, Jhagadia, Dahej and Kutch, in Gujarat and in Tarapur in Maharashtra; cals segment
+  AARTIIND | Rajendra V Gogri | Chairman & Managing Director
+    Qualification: cals at its major facilities in Vapi, Jhagadia, Dahej and Kutch, in Gujarat and in Tarapur in Maharashtra; cals segment
+  AARTIIND | Rashesh C Gogri | Vice Chairman & Managing Director
+    Qualification: cals at its major facilities in Vapi, Jhagadia, Dahej and Kutch, in Gujarat and in Tarapur in Maharashtra; cals segment
+  AARTIIND | Chandrakant Gogri | Chairman Emeritus
+    Qualification: cals at its major facilities in Vapi, Jhagadia, Dahej and Kutch, in Gujarat and in Tarapur in Maharashtra; cals segment
+  ABB | Sanjeev Sharma | Managing Director
+    Qualification: B.E. Electronics & Telecommunication Engineering; Management Programme from IMD Switzerland; Management Programme from I
+    Experience: Joined ABB in 1989 in Project Management. Held leadership roles at Alstom and GE in power generation and industrial auto
+  ABB | Adrian Guggisberg | Chairman (Non-Executive)
+    Qualification: ment manufacturer supplying the complete range of engineering, products, solutions and services in areas of Automation a
+  ABBOTINDIA | Munir Shaikh | Chairman (Non-Executive)
+    Qualification: cal companies in India and sells its products through independent distributors primarily within India
+  ABCAPITAL | Kumar Mangalam Birla | Chairman & Non Executive Director
+    Qualification: B.Com from H.R. College of Commerce, University of Mumbai; Chartered Accountant (ICAI); MBA from London Business School 
+    Experience: Took over as Chairman of Aditya Birla Group in 1995 at age 28. Grew group turnover from US$2B to US$66B. Oversaw 60+ acq
+  ABCAPITAL | Amber Gupta | Company Sec. & Compli. Officer
+    Qualification: mers across their life stages; Capital Limited, the holding company for the financial services businesses of the Aditya 
+  ABCAPITAL | Kumar Birla | Chairman & Non Executive Dir.
+    Qualification: B.Com from H.R. College of Commerce, University of Mumbai; Chartered Accountant (ICAI); MBA from London Business School 
+    Experience: Took over as Chairman of Aditya Birla Group in 1995 at age 28. Grew group turnover from US$2B to US$66B. Oversaw 60+ acq
+  ABFRL | Kumar Mangalam Birla | Chairman & Non Executive Dir
+    Qualification: B.Com from H.R. College of Commerce, University of Mumbai; Chartered Accountant (ICAI); MBA from London Business School 
+    Experience: Took over as Chairman of Aditya Birla Group in 1995 at age 28. Grew group turnover from US$2B to US$66B. Oversaw 60+ acq
+  ABFRL | ASHISH DIKSHIT | Managing Director
+    Qualification: belonging to 42 nationalities, the Aditya Birla Group operates in 34 countries across the globe; merged after the consol
+  ABFRL | Kumar Birla | Chairman (Non-Executive)
+    Qualification: B.Com from H.R. College of Commerce, University of Mumbai; Chartered Accountant (ICAI); MBA from London Business School 
+    Experience: Took over as Chairman of Aditya Birla Group in 1995 at age 28. Grew group turnover from US$2B to US$66B. Oversaw 60+ acq
+  ABREL | Kumar Mangalam Birla | Chairman (Non-Executive)
+    Qualification: B.Com from H.R. College of Commerce, University of Mumbai; Chartered Accountant (ICAI); MBA from London Business School 
+    Experience: Took over as Chairman of Aditya Birla Group in 1995 at age 28. Grew group turnover from US$2B to US$66B. Oversaw 60+ acq
+  ABREL | Atul K Kedia | Company Sec. & Compli. Officer
+    Qualification: med from a single-unit textile entity in 1987 into a commercial powerhouse with interests in diverse industries
+  ABREL | Atul Kedia | Company Sec. & Compli. Officer
+    Qualification: med from a single-unit textile entity in 1987 into a commercial powerhouse with interests in diverse industries
+  ABREL | Kumar Birla | Chairman (Non-Executive)
+    Qualification: B.Com from H.R. College of Commerce, University of Mumbai; Chartered Accountant (ICAI); MBA from London Business School 
+    Experience: Took over as Chairman of Aditya Birla Group in 1995 at age 28. Grew group turnover from US$2B to US$66B. Oversaw 60+ acq
+  ABREL | R Dalmia | Managing Director
+    Qualification: med from a single-unit textile entity in 1987 into a commercial powerhouse with interests in diverse industries
+  ABSLAMC | A Balasubramanian | Managing Director & CEO
+    Qualification: between Aditya Birla Capital Ltd and Sun Life AMC; ment services, offshore and real estate offerings; Capital Ltd and Su
+  ABSLAMC | Prateek Savla | Company Sec. & Compli. Officer
+    Qualification: between Aditya Birla Capital Ltd and Sun Life AMC; ment services, offshore and real estate offerings; Capital Ltd and Su
+  ACC | Karan Adani | Chairman (Non-Executive)
+    Qualification: ber of the Adani Group, is principally engaged in the business of manufacturing and selling of Cement and Ready Mix Conc
+    Experience: ACC Limited (incorporated in 1936), a member of the Adani Group, is principally engaged in the business of manufacturing
+  ACC | Ajay Kapur | Whole Time Director & CEO
+    Qualification: B.A. Economics from St. Xavier's College Mumbai; MBA from K.J. Somaiya Institute of Management; Advanced Management Prog
+    Experience: Over 30 years in cement, construction, power sectors. Joined Ambuja Cement in 1993. Served as CEO and MD of Ambuja from 
