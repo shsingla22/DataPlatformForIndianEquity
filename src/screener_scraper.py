@@ -439,7 +439,7 @@ class ScreenerScraper:
             json.dump(data, f, indent=2, default=str)
         logger.debug("Raw data saved to %s", filepath)
 
-    def get_company_list_page(self, query="Market Capitalization > 5000", page=1):
+    def get_company_list_page(self, query="Market Capitalization > 1000", page=1):
         """
         Fetch a page of company results from Screener.in query.
 

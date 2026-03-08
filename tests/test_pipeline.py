@@ -185,7 +185,7 @@ class TestPipelineRun:
         self, mock_fetcher_cls, mock_scraper_cls, db_path, mock_scraper_data
     ):
         # Set market cap below threshold
-        mock_scraper_data["company_info"]["market_cap_crores"] = 1000.0
+        mock_scraper_data["company_info"]["market_cap_crores"] = 500.0
         mock_scraper = MagicMock()
         mock_scraper.scrape_company.return_value = mock_scraper_data
         mock_scraper_cls.return_value = mock_scraper

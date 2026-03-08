@@ -11,7 +11,7 @@ EXPORTS_DIR = os.path.join(DATA_DIR, "exports")
 DB_PATH = os.path.join(DATA_DIR, "financial_profiles.db")
 
 # Market cap filter (in crores INR)
-MIN_MARKET_CAP_CRORES = 5000
+MIN_MARKET_CAP_CRORES = 1000
 
 # Number of years of financial data to fetch
 NUM_YEARS = 3

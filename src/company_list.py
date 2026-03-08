@@ -1,5 +1,5 @@
 """
-Fetch list of companies listed on NSE and BSE with market cap > 5000 crore.
+Fetch list of companies listed on NSE and BSE with market cap > 1000 crore.
 
 Uses multiple data sources:
 1. NSE India equity list (for all NSE-listed symbols)

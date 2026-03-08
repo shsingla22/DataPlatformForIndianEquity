@@ -140,11 +140,11 @@ class TestCompanyOperations:
             # Insert a small company
             small_company = sample_company.copy()
             small_company["nse_symbol"] = "SMALLCO"
-            small_company["market_cap_crores"] = 1000.0
+            small_company["market_cap_crores"] = 500.0
             insert_company(conn, small_company)
 
         with get_db_connection(db_path) as conn:
-            companies = get_all_companies(conn, min_market_cap=5000)
+            companies = get_all_companies(conn, min_market_cap=1000)
             assert len(companies) == 1
             assert companies[0]["nse_symbol"] == "RELIANCE"
 
