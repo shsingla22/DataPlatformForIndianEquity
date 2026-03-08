@@ -36,18 +36,19 @@ def create_results_table(db_path: str = DB_PATH):
             score_valuation REAL,
             score_balance_sheet REAL,
             composite_score REAL,
+            ownership_type TEXT,
             screened_at TEXT,
             UNIQUE(company_id, screened_at)
         )
     """)
 
-    # Add dividend_score column to companies if it doesn't exist
-    try:
-        conn.execute(
-            "ALTER TABLE companies ADD COLUMN dividend_score REAL DEFAULT NULL"
-        )
-    except sqlite3.OperationalError:
-        pass  # column already exists
+    # Add columns to companies if they don't exist
+    for col, typ in [("dividend_score", "REAL DEFAULT NULL"),
+                     ("ownership_type", "TEXT DEFAULT NULL")]:
+        try:
+            conn.execute(f"ALTER TABLE companies ADD COLUMN {col} {typ}")
+        except sqlite3.OperationalError:
+            pass  # column already exists
 
     conn.commit()
     conn.close()
@@ -78,7 +79,8 @@ def store_results(all_metrics: List[CompanyMetrics],
             "debt_to_equity, roe_pct, "
             "score_div_yield, score_payout, score_earnings_growth, "
             "score_valuation, score_balance_sheet, composite_score, "
-            "screened_at) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+            "ownership_type, screened_at) "
+            "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
             (
                 m.company_id, m.nse_symbol, rank, m.latest_year,
                 round(m.dividend_yield_pct, 2),
@@ -95,14 +97,16 @@ def store_results(all_metrics: List[CompanyMetrics],
                 round(m.score_valuation, 1),
                 round(m.score_balance_sheet, 1),
                 round(m.composite_score, 1),
+                m.ownership_type,
                 now,
             )
         )
 
-        # Update company dividend_score
+        # Update company dividend_score and ownership_type
         conn.execute(
-            "UPDATE companies SET dividend_score = ? WHERE id = ?",
-            (round(m.composite_score, 1), m.company_id)
+            "UPDATE companies SET dividend_score = ?, ownership_type = ? "
+            "WHERE id = ?",
+            (round(m.composite_score, 1), m.ownership_type, m.company_id)
         )
 
     conn.commit()

@@ -1,8 +1,8 @@
 """CLI entry point for the dividend value screener.
 
 Usage:
-    python -m dividend_screener                   # Full screening, top 30
-    python -m dividend_screener --top 50          # Top 50
+    python -m dividend_screener                   # Full screening (PSU + Private top 20 each)
+    python -m dividend_screener --top 20          # Top N per category
     python -m dividend_screener --json            # JSON output
     python -m dividend_screener --out results.txt # Save to file
     python -m dividend_screener --store           # Store results in database
@@ -26,8 +26,8 @@ def main():
         help="Path to the SQLite database"
     )
     parser.add_argument(
-        "--top", type=int, default=30,
-        help="Number of top companies to show (default: 30)"
+        "--top", type=int, default=20,
+        help="Number of top companies per category (default: 20)"
     )
     parser.add_argument(
         "--json", action="store_true",
@@ -39,7 +39,7 @@ def main():
     )
     parser.add_argument(
         "--table-only", action="store_true",
-        help="Print only the ranked table (no summary)"
+        help="Print only the ranked tables (no summary)"
     )
     parser.add_argument(
         "--store", action="store_true",
@@ -52,14 +52,26 @@ def main():
         print("No companies found with valid dividend data.", file=sys.stderr)
         sys.exit(1)
 
-    ranked = rank_companies(all_metrics, args.top)
+    ranked = rank_companies(all_metrics, len(all_metrics))  # rank all
 
     if args.json:
-        output = to_json(ranked)
+        output = to_json(all_metrics, args.top)
     elif args.table_only:
-        output = format_table(ranked)
+        psu = sorted(
+            [m for m in all_metrics if m.ownership_type == "PSU"],
+            key=lambda m: m.composite_score, reverse=True
+        )[:args.top]
+        private = sorted(
+            [m for m in all_metrics if m.ownership_type == "Private"],
+            key=lambda m: m.composite_score, reverse=True
+        )[:args.top]
+        output = (
+            format_table(psu, f"TOP {len(psu)} PSU COMPANIES")
+            + "\n\n"
+            + format_table(private, f"TOP {len(private)} PRIVATE SECTOR COMPANIES")
+        )
     else:
-        output = format_summary(all_metrics, ranked)
+        output = format_summary(all_metrics, ranked, args.top)
 
     print(output)
 

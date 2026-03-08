@@ -18,6 +18,8 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
+from dividend_screener.psu_classifier import classify
+
 DB_PATH = str(Path(__file__).parent.parent / "data" / "financial_profiles.db")
 
 # ── Scoring weights ──────────────────────────────────────────────────
@@ -36,6 +38,7 @@ class CompanyMetrics:
     name: str
     sector: str
     market_cap: float  # crores
+    ownership_type: str = ""  # "PSU" or "Private"
 
     # Latest year values
     latest_year: str = ""
@@ -242,6 +245,7 @@ def load_company_data(db_path: str = DB_PATH) -> List[CompanyMetrics]:
             name=name,
             sector=sector,
             market_cap=mcap,
+            ownership_type=classify(symbol),
             latest_year=latest["fiscal_year"],
             eps=eps,
             dividend_payout_pct=div_payout,
