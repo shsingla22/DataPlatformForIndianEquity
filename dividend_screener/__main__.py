@@ -1,11 +1,13 @@
 """CLI entry point for the dividend value screener.
 
 Usage:
-    python -m dividend_screener                   # Full screening (PSU + Private top 20 each)
-    python -m dividend_screener --top 20          # Top N per category
-    python -m dividend_screener --json            # JSON output
-    python -m dividend_screener --out results.txt # Save to file
-    python -m dividend_screener --store           # Store results in database
+    python -m dividend_screener                       # Full screening (PSU + Private top 20 each)
+    python -m dividend_screener --refresh             # Refresh market caps first, then screen
+    python -m dividend_screener --refresh --limit 10  # Refresh only 10 companies (for testing)
+    python -m dividend_screener --top 20              # Top N per category
+    python -m dividend_screener --json                # JSON output
+    python -m dividend_screener --out results.txt     # Save to file
+    python -m dividend_screener --store               # Store results in database
 """
 
 import argparse
@@ -24,6 +26,14 @@ def main():
     parser.add_argument(
         "--db", default=DB_PATH,
         help="Path to the SQLite database"
+    )
+    parser.add_argument(
+        "--refresh", action="store_true",
+        help="Refresh market caps from Screener.in before screening"
+    )
+    parser.add_argument(
+        "--limit", type=int, default=0,
+        help="Limit how many companies to refresh (0=all, use with --refresh)"
     )
     parser.add_argument(
         "--top", type=int, default=20,
@@ -47,6 +57,27 @@ def main():
     )
     args = parser.parse_args()
 
+    # ── Refresh market caps if requested ────────────────────────────
+    if args.refresh:
+        import logging
+        from dividend_screener.refresh_market_cap import MarketCapRefresher
+
+        logging.basicConfig(
+            level=logging.INFO,
+            format="%(asctime)s %(levelname)s %(message)s",
+        )
+        print("Refreshing market caps from Screener.in...", file=sys.stderr)
+        refresher = MarketCapRefresher(db_path=args.db)
+        stats = refresher.refresh_all(limit=args.limit)
+        print(
+            f"Market cap refresh: {stats['updated']} updated, "
+            f"{stats['unchanged']} unchanged, {stats['failed']} failed "
+            f"(out of {stats['total']})",
+            file=sys.stderr,
+        )
+        print("", file=sys.stderr)
+
+    # ── Run screener ────────────────────────────────────────────────
     all_metrics = load_company_data(args.db)
     if not all_metrics:
         print("No companies found with valid dividend data.", file=sys.stderr)
