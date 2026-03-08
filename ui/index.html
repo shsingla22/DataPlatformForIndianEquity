@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indian Equity Financial Platform</title>
+  <link rel="stylesheet" href="/static/css/main.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <!-- ============================================================ -->
+  <!-- SIDEBAR NAVIGATION                                           -->
+  <!-- ============================================================ -->
+  <nav id="sidebar" class="sidebar">
+    <div class="sidebar-header">
+      <h1 class="logo">
+        <span class="logo-icon">&#x20B9;</span>
+        <span class="logo-text">EquityIQ</span>
+      </h1>
+      <p class="logo-sub">Indian Equity Data Platform</p>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#" class="nav-link active" data-view="query">
+        <span class="nav-icon">&#x1F50D;</span> Ask a Question</a></li>
+      <li><a href="#" class="nav-link" data-view="companies">
+        <span class="nav-icon">&#x1F3E2;</span> Browse Companies</a></li>
+      <li><a href="#" class="nav-link" data-view="compare">
+        <span class="nav-icon">&#x2696;</span> Compare</a></li>
+      <li><a href="#" class="nav-link" data-view="rankings">
+        <span class="nav-icon">&#x1F3C6;</span> Rankings</a></li>
+    </ul>
+    <div class="sidebar-footer">
+      <div id="db-stats" class="stats-box">
+        <p><strong id="stat-companies">—</strong> companies</p>
+        <p><strong id="stat-records">—</strong> records</p>
+      </div>
+      <p class="api-link"><a href="/docs" target="_blank">API Docs (Swagger)</a></p>
+    </div>
+  </nav>
+
+  <!-- ============================================================ -->
+  <!-- MAIN CONTENT                                                 -->
+  <!-- ============================================================ -->
+  <main id="main-content" class="main-content">
+    <!-- Mobile top bar -->
+    <div class="mobile-topbar">
+      <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+      <span class="mobile-title">EquityIQ</span>
+    </div>
+
+    <!-- ======== QUERY VIEW ======== -->
+    <section id="view-query" class="view active">
+      <div class="view-header">
+        <h2>Ask a Question</h2>
+        <p class="view-desc">Ask anything about Indian equity financial data in plain English.</p>
+      </div>
+
+      <div class="query-container">
+        <div id="chat-history" class="chat-history">
+          <div class="chat-welcome">
+            <h3>Welcome! Try asking:</h3>
+            <div class="suggestion-chips" id="initial-suggestions">
+              <button class="chip" data-q="What is the revenue of Reliance in 2024?">Revenue of Reliance in 2024</button>
+              <button class="chip" data-q="Top 10 companies by net profit">Top 10 by net profit</button>
+              <button class="chip" data-q="Compare TCS and Infosys">Compare TCS vs Infosys</button>
+              <button class="chip" data-q="Show me HDFC Bank financials">HDFC Bank overview</button>
+              <button class="chip" data-q="What is the debt to equity ratio of Tata Motors?">Tata Motors D/E ratio</button>
+              <button class="chip" data-q="Top 5 companies by operating margin">Top 5 by OPM</button>
+            </div>
+          </div>
+        </div>
+
+        <form id="query-form" class="query-input-bar" autocomplete="off">
+          <input
+            type="text"
+            id="query-input"
+            class="query-input"
+            placeholder="e.g. What is the net profit of Infosys in FY2024?"
+            required
+            minlength="3"
+            maxlength="500"
+          >
+          <button type="submit" class="query-submit" id="query-submit">
+            <span class="submit-icon">&#x27A4;</span>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ======== COMPANIES VIEW ======== -->
+    <section id="view-companies" class="view">
+      <div class="view-header">
+        <h2>Browse Companies</h2>
+        <div class="search-bar">
+          <input type="text" id="company-search" class="search-input"
+                 placeholder="Search by name or symbol...">
+        </div>
+      </div>
+      <div id="companies-list" class="companies-grid"></div>
+      <div id="companies-pagination" class="pagination"></div>
+
+      <!-- Company detail modal -->
+      <div id="company-modal" class="modal hidden">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+          <button class="modal-close">&times;</button>
+          <div id="company-detail"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== COMPARE VIEW ======== -->
+    <section id="view-compare" class="view">
+      <div class="view-header">
+        <h2>Compare Companies</h2>
+        <p class="view-desc">Select 2–5 companies to compare side-by-side.</p>
+      </div>
+      <div class="compare-controls">
+        <div class="compare-input-group">
+          <input type="text" id="compare-input" class="search-input"
+                 placeholder="Type a company name or symbol...">
+          <div id="compare-autocomplete" class="autocomplete-dropdown hidden"></div>
+        </div>
+        <div id="compare-selected" class="selected-chips"></div>
+        <div class="compare-options">
+          <select id="compare-table" class="select-input">
+            <option value="profit_loss">Profit &amp; Loss</option>
+            <option value="balance_sheet">Balance Sheet</option>
+            <option value="cash_flow">Cash Flow</option>
+          </select>
+          <button id="compare-btn" class="btn btn-primary" disabled>Compare</button>
+        </div>
+      </div>
+      <div id="compare-results" class="compare-results"></div>
+    </section>
+
+    <!-- ======== RANKINGS VIEW ======== -->
+    <section id="view-rankings" class="view">
+      <div class="view-header">
+        <h2>Company Rankings</h2>
+      </div>
+      <div class="rank-controls">
+        <select id="rank-table" class="select-input">
+          <option value="profit_loss">Profit &amp; Loss</option>
+          <option value="balance_sheet">Balance Sheet</option>
+          <option value="cash_flow">Cash Flow</option>
+        </select>
+        <select id="rank-metric" class="select-input">
+          <option value="net_profit">Net Profit</option>
+          <option value="sales">Revenue</option>
+          <option value="operating_profit">Operating Profit</option>
+          <option value="opm_percent">OPM %</option>
+          <option value="eps">EPS</option>
+        </select>
+        <select id="rank-order" class="select-input">
+          <option value="DESC">Highest First</option>
+          <option value="ASC">Lowest First</option>
+        </select>
+        <select id="rank-limit" class="select-input">
+          <option value="10">Top 10</option>
+          <option value="20">Top 20</option>
+          <option value="50">Top 50</option>
+        </select>
+        <button id="rank-btn" class="btn btn-primary">Show Rankings</button>
+      </div>
+      <div id="rank-results" class="rank-results"></div>
+    </section>
+  </main>
+
+  <script src="/static/js/api.js"></script>
+  <script src="/static/js/charts.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
